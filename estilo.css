@@ -790,7 +790,6 @@ footer article a#logo img{
     background-size: cover;
     }
 
-    }
     footer{
     width: 100%;
     height: 370px
@@ -808,5 +807,139 @@ footer article a#logo img{
     }
 }
 @media only screen and (max-width: 349px){
+    header {
+    height: 70px;       
+    }
+    header article {
+    width: 100%;
+    height: 70px;
+    }
+    header article a#logo{
+    width: 50px;
+    height: 50px;
+    margin: 16px 0 0 30px;
+
+    }
+    header article nav#menu-principal {
+    display: none;
+    }
+   
+    main section#fila-banner-frase{
+    width: 100%;
+    height: 400px;
+        
+    }
+    main section#fila-banner-frase article{
+    width: 80%;
+    height: 400px;
+    }
+    main section#fila-banner-frase article h1 {
+    font-size: 4em;
+    padding: 94px 0 0 0;
+    }   
+    main section#fila-banner-frase article p {
+    padding:0 0 75px 0;
+    font-size: 1.2em;
+    }
     
+    main section#fila-circulos{
+    width: 100%;
+    height: 760px;
+
+    }    
+
+    main section#fila-circulos article{
+    width: 100%;
+    height: 760px;
+
+    }
+    main section#fila-circulos article figure{
+    width: 250px;
+    height: 250px;
+    padding: 50px 47px;
+
+    }
+    main section#fila-circulos article figure img{
+    width: 250px;
+    height: 250px;
+        
+    }
+    main section#fila-circulos article figure h4{
+    width: 100%;
+    font-size: 2em;
+    padding: 14px 0 0 0;
+
+    }
+    main section#fila-2-fotos{
+    width: 100%;
+    height: 200px;
+
+    }
+    main section#fila-2-fotos article#foto-izquierda{
+    width: 50%;
+    height: 200px;
+    background:url(img/IMAGEN1.png) no-repeat top center;
+    background-size: cover; 
+    }
+    main section#fila-2-fotos article#foto-derecha{
+    width: 50%;
+    height: 200px;
+    background:url(img/IMAGEN2.png) no-repeat top center;
+    background-size: cover; 
+    }
+
+    main section#fila-frase-larga{
+    width: 100%;
+    height: 300px;
+
+    }
+    
+    main section#fila-frase-larga article {
+    width: 80%;
+    height: 300px;
+        
+    }
+
+    main section#fila-frase-larga article h5{
+    padding: 60px 0 0 0;
+    font-size: 1.2em
+
+    }
+
+    main section#fila-3-fotos{
+    width: 100%;
+    height: 780px;
+    
+    }
+    
+    main section#fila-3-fotos article{
+    width: 100%;
+    height: 260;
+    }
+
+    main section#fila-3-fotos article#img-izquierda{
+    background-size: cover;
+    }
+    main section#fila-3-fotos article#img-centro{
+    background-size: cover;
+    }
+    main section#fila-3-fotos article#img-derecha{
+    background-size: cover;
+    }
+
+    footer{
+    width: 100%;
+    height: 370px
+    }
+    footer article{
+    width: 80%;
+    height: 370px;
+
+    }
+    footer article a#logo{
+    width: 100px;
+    height: 120px;
+    padding: 152px 0 0 0;
+
+    }
 }
